@@ -4,6 +4,19 @@ tenants.cache.json
 chocoapps.cache
 *.log
 .vscode/
-Cache_BestPracticeAnalyser/
-Cache_DomainAnalyser/
+Cache_*
+Logs
 ExcludedTenants
+SendNotifications/config.json
+.env
+Output/
+node_modules/.yarn-integrity
+yarn.lock
+
+# Cursor IDE
+.cursor/rules
+.claude
+
+# Ignore all root PowerShell files except profile.ps1
+/*.ps1
+!/profile.ps1
